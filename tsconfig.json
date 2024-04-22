@@ -2,6 +2,15 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "skipLibCheck": true,
+    "paths": {
+      "@tensorflow/tfjs-evolution": [
+        "./dist/tensorflow/tfjs-evolution"
+      ],
+      "tfjs-evolution": [
+        "./dist/tfjs-evolution"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,

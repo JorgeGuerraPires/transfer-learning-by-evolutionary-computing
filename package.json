@@ -4,9 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "build": "ng build --configuration development",
+    "watch": "ng build --watch --configuration production",
+    "test": "ng test",
+    "publish": "cd dist; cd tfjs-evolution; npm publish"
   },
   "private": true,
   "dependencies": {
@@ -18,7 +19,10 @@
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
+    "@tensorflow/tfjs": "^4.17.0",
+    "@tensorflow/tfjs-vis": "^1.5.1",
     "rxjs": "~7.8.0",
+    "tfjs-evolution": "^0.0.7",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"
   },
@@ -33,6 +37,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "ng-packagr": "^17.3.0",
     "typescript": "~5.2.2"
   }
 }

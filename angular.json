@@ -96,6 +96,75 @@
           }
         }
       }
+    },
+    "@tensorflow/tfjs-evolution": {
+      "projectType": "library",
+      "root": "projects/tensorflow/tfjs-evolution",
+      "sourceRoot": "projects/tensorflow/tfjs-evolution/src",
+      "prefix": "neuroevolution",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/tensorflow/tfjs-evolution/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/tensorflow/tfjs-evolution/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/tensorflow/tfjs-evolution/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/tensorflow/tfjs-evolution/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    },
+    "tfjs-evolution": {
+      "projectType": "library",
+      "root": "projects/tfjs-evolution",
+      "sourceRoot": "projects/tfjs-evolution/src",
+      "prefix": "neuroevolution",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/tfjs-evolution/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/tfjs-evolution/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/tfjs-evolution/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/tfjs-evolution/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
     }
+  },
+  "cli": {
+    "analytics": "6bdc2c04-64fa-480b-be13-6950848fad50"
   }
 }

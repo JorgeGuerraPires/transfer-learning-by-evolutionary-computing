@@ -1,0 +1,16 @@
+{
+  "name": "tfjs-evolution",
+  "version": "0.0.8",
+  "description": "This is an experimentation with evolutionary computing applied to neural networks using TensorFlow.js",
+  "author": "Jorge Guerra Pires",
+  "license": "MIT",
+  "keywords": ["angular", "evolutionary computing", "genetic algorithms", "neural networks", "machine learning", "optimization"],
+  "peerDependencies": {
+    "@angular/common": "^17.3.0",
+    "@angular/core": "^17.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

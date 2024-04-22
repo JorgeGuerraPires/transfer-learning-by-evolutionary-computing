@@ -1,0 +1,4 @@
+<div *ngFor="let class of classes; index as i">
+  <h1>{{class.name}}</h1>
+  <img  *ngFor="let item of class.images; index as i" [src]="item" width="224" height="224" [id]="'class-' + class.name + '-' + i" crossorigin="anonymous" >
+</div>

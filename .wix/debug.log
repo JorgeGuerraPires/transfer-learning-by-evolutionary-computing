@@ -1,0 +1,46 @@
+----- CLI crash report at 2024-04-16T13:54:55.382Z
+Error Trace
+FailedToReadJson: FailedToReadJson
+    at lf (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-fs\src\index.ts:38:11)
+    at g (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\files\velo.config.ts:18:22)
+    at h (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\model.ts:13:18)
+    at s (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\commands\run-command.ts:8:26)
+    at w (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\commands\run-command.ts:25:3)
+    at o.<anonymous> (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\commands\dev.ts:21:7)
+    at o.parseAsync (C:\Users\jorge\AppData\Roaming\npm\node_modules\node_modules\commander\lib\command.js:1015:5)
+    at <anonymous> (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli\src\index.ts:59:3)
+caused by: Error
+    at Z (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-error\src\cli-error.ts:20:11)
+    at lf (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-fs\src\index.ts:38:11)
+    at g (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\files\velo.config.ts:18:22)
+    at h (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\model.ts:13:18)
+    at s (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\commands\run-command.ts:8:26)
+    at w (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\commands\run-command.ts:25:3)
+    at o.<anonymous> (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\commands\dev.ts:21:7)
+    at o.parseAsync (C:\Users\jorge\AppData\Roaming\npm\node_modules\node_modules\commander\lib\command.js:1015:5)
+    at <anonymous> (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli\src\index.ts:59:3)
+Error Info
+{}
+----- CLI crash report at 2024-04-22T09:09:21.712Z
+Error Trace
+FailedToReadJson: FailedToReadJson
+    at lf (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-fs\src\index.ts:38:11)
+    at g (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\files\velo.config.ts:18:22)
+    at h (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\model.ts:13:18)
+    at s (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\commands\run-command.ts:8:26)
+    at w (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\commands\run-command.ts:25:3)
+    at o.<anonymous> (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\commands\publish.ts:24:7)
+    at o.parseAsync (C:\Users\jorge\AppData\Roaming\npm\node_modules\node_modules\commander\lib\command.js:1015:5)
+    at <anonymous> (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli\src\index.ts:59:3)
+caused by: Error
+    at Z (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-error\src\cli-error.ts:20:11)
+    at lf (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-fs\src\index.ts:38:11)
+    at g (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\files\velo.config.ts:18:22)
+    at h (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\model.ts:13:18)
+    at s (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\commands\run-command.ts:8:26)
+    at w (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\commands\run-command.ts:25:3)
+    at o.<anonymous> (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli-site\src\commands\publish.ts:24:7)
+    at o.parseAsync (C:\Users\jorge\AppData\Roaming\npm\node_modules\node_modules\commander\lib\command.js:1015:5)
+    at <anonymous> (C:\Users\jorge\AppData\Roaming\npm\node_modules\@wix\cli\src\index.ts:59:3)
+Error Info
+{}
